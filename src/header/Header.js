@@ -72,8 +72,8 @@ export default class Header extends Component {
         </AppBar>
         <PromoBanner
           className={classes.promo}
-          src={`https://placehold.it/750x128/81d4fa/fff?text=${encodeURIComponent(
-            '25% OFF EVERYTHING'
+          src={`https://placehold.it/750x128/0022ff/fff?text=${encodeURIComponent(
+            '79% OFF SOME THINGS'
           )}`}
           style={{ height: '64px' }}
           imgProps={{ quality: 50 }}
