@@ -14,11 +14,11 @@ export default class Home extends Component {
     return (
       <Container>
         <Row>
-          <Typography variant="h4">React Storefront</Typography>
+          <Typography variant="h4">John Moore's dev shop</Typography>
         </Row>
         <Row>
           <Typography variant="subtitle1">
-            <CmsSlot>{app.welcomeMessage}</CmsSlot>
+            <CmsSlot>Modified by John Moore</CmsSlot>
           </Typography>
         </Row>
       </Container>
